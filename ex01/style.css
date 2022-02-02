@@ -1,0 +1,56 @@
+body {
+    background: #FFF;
+}
+
+#banner {
+    width: 100%; /*largura da imagem ocupando 100% do body*/
+}
+
+.principal {
+    background: #ccc;
+    padding: 30px;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+em strong {
+    color:#FF0000;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.beneficios {
+    background: #FFF;
+    padding: 20px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.imagembeneficios {
+    
+    width: 50%; /*a imagem terá 50% da largura de body*/
+}
+
+/*mesmo que eu diminua a largura de um elemento block, ele ainda vai tomar toda a linha, impossibilitando que vc alinhe outros elementos na mesma linha, como uma imagem.
+o inline-block ocupa só o tamanho do seu conteúdo mas deixa mexer na largura e espaçamentos
+todo os elementos são alinhados pela linha de baixo do container, pra mudar isso podemos usar a propriedade vertical-align:top*/
