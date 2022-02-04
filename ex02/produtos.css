@@ -1,0 +1,68 @@
+header {
+    background: #BBB;
+    padding: 20px 0; /*colocamos o padding pra deixar tudo dentro dele nesses limites*/
+}
+
+.caixa {
+    position: relative; /*foi necessário para que os 2 elementos fiquem dentro da caixa, por conta do position absolute de nav*/
+    width: 940px; /*largura usada pois a maioria das boas resoluções da web abrigam esse valor*/
+    margin: 0 auto; /*tornou a caixa centralizada*/
+   
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+
+
+nav li { /*todos os itens da lista que estão dentro da tag de navegação vão ter display inline*/
+    display: inline;
+    margin: 0 0 0 15px; /*espaço na esquerda de cada li*/
+
+
+}
+
+nav a { 
+    text-transform: uppercase; /*textos em maiúsculo. Aqui alteramos o comportamento visual do html e não a estrutura. Não podemos escrever algo em maiúsculo direto*/
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none; 
+}
+
+.produtos { /*centralizando conteuúdo*/
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;  
+    
+    
+}
+
+.produtos li {
+    display: inline-block;/*itens un ao lado do outro, ocupando apenas o tamanho total deles mesmos*/
+    vertical-align: top;
+    text-align: center;
+    width: 30%; /*cada item ocupará 30% da tela. os 3 90%, sobrando 10%*/
+    margin: 0 1.5%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+    color: green;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
