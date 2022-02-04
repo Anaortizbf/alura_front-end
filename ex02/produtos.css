@@ -33,12 +33,15 @@ nav a {
     text-decoration: none; 
 }
 
+nav a:hover { /*quando o mouse estiver por cima dos links do menu de navegação*/
+    color: #C78C19;
+    text-decoration: underline;
+}
+
 .produtos { /*centralizando conteuúdo*/
     width: 940px;
     margin: 0 auto;
     padding: 50px 0;  
-    
-    
 }
 
 .produtos li {
@@ -49,6 +52,20 @@ nav a {
     margin: 0 1.5%;
     padding: 40px 20px;
     box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: #C78C19;
+    
+}
+.produtos li:active { /*active: quando o mouse estiver com o botão segurado*;*/
+    border-color: #088C19;
+}
+
+.produtos li:hover h2 { /* Eu quero que o h2, quando o mouse estiver por cima do “li” dos produtos, ele tenha o tamanho de fonte de 40 pixels.*/
+    font-size:34px ; 
 }
 
 .produtos h2 {
@@ -65,4 +82,16 @@ nav a {
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url("images/bg.jpg");
+    padding: 40px 0 ;
+}
+
+.copyright {
+    color: #000;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
