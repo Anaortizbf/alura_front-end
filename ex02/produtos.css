@@ -75,7 +75,7 @@ nav a:hover { /*quando o mouse estiver por cima dos links do menu de navegação
 
 .produto-descricao {
     font-size: 18px;
-    color: green;
+    color: rgb(29, 28, 28);
 }
 
 .produto-preco {
